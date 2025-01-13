@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ededd5;
+            color: #333;
+        }
+
+        header {
+            background: #d13ddb;
+            color: rgb(27, 7, 7);
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: rgb(54, 192, 192);
+            border-radius: 8px;
+            border: 1px solid black;
+            box-shadow: 0 10px 8px rgba(155, 50, 50, 0.1);
+        }
+
+        .home img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 2px solid black;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        .home h2 {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .about p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #d13ddb;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Styles for Certificate Section */
+        .certificate {
+            text-align: center;
+            padding: 2rem;
+            background: rgb(54, 192, 192);
+            border: 1px solid #4797cb;
+            border-radius: 8px;
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .certificate h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .certificate img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ffb74d;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+
+        .certificate ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .certificate ul li {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SHIVALEELA ARAGODDI</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificate">Certificate</a>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <img src="images\shiv proto photo.jpg" alt="Your photo">
+        <h2>Welcome to My Portfolio</h2>
+        <p>"I'm a web developer passionate about problem-solving and innovation. Skilled in HTML, CSS, and JavaScript, I aim to master full-stack development and impress with creative, dynamic web experiences. Explore my work and be inspired!"</p>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated web developer with experience in building dynamic and responsive websites. I have completed a 'Python Fullstack' microdegree, and I am currently an intern at Prodigy Infotech. My journey in tech has been marked by learning new skills and contributing to exciting projects.
+        </p>
+        <strong>Education:</strong>
+        <ul>
+            <li>Python Fullstack Microdegree</li>
+            <li>Bachelor's in Electronics and Communication Engineering (or equivalent)</li>
+        </ul>
+        <strong>Professional Experience:</strong>
+        <ul>
+            <li>Internship at Prodigy Infotech</li>
+            <li>Developed an interactive navigation menu and a stopwatch application</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Interactive Navigation Menu - Built with HTML, CSS, and JavaScript</li>
+            <li>Stopwatch Application - A functional and user-friendly stopwatch tool</li>
+            <li>More projects coming soon!</li>
+        </ul>
+    </section>
+
+    <section id="certificate" class="section certificate">
+        <h2>Certificate</h2>
+        <ul>
+            <li>Python Fullstack Microdegree Certificate</li>
+        </ul>
+        <!-- Certificate Image -->
+        <img src="images\shiv micro intern.jpg" alt="Certificate">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shivaleela Aragoddi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
